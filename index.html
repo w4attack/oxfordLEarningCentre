@@ -1,0 +1,648 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OXFORD LEARNING CENTRE — Учебный центр в Ташкенте | Английский язык, IELTS 7.0+, Rus tili, CEFR</title>
+<meta name="description" content="Учебный центр Oxford Learning Centre в Ташкенте: английская атмосфера и реальные результаты обучения. Английский язык, IELTS 7.0+, Rus tili, CEFR. Скидка 10% по промокоду с флаера. Буюк Ипак йўли, 3.">
+<meta name="theme-color" content="#111111">
+<meta property="og:title" content="OXFORD LEARNING CENTRE — Учебный центр">
+<meta property="og:description" content="Английская атмосфера и реальные результаты обучения. Скидка 10% по промокоду с флаера.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: '#111111',
+        ink2: '#1A1A1A',
+        burgundy: '#9E0038',
+        burgundyDark: '#78002B',
+        gold: '#D4AF37',
+        goldLight: '#E5A024',
+        cream: '#F8F9FA'
+      },
+      fontFamily: {
+        display: ['Cinzel', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif']
+      },
+      boxShadow: {
+        premium: '0 24px 60px -20px rgba(17,17,17,0.35)',
+        card: '0 18px 45px -22px rgba(17,17,17,0.28)',
+        gold: '0 14px 34px -14px rgba(212,175,55,0.65)'
+      }
+    }
+  }
+}
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  ::selection{background:#9E0038;color:#fff}
+  .font-display{font-family:'Cinzel',Georgia,serif}
+  .nav-scrolled{box-shadow:0 10px 30px -14px rgba(0,0,0,.55);background:rgba(17,17,17,.96)}
+  .texture-dark{
+    background-color:#111111;
+    background-image:
+      radial-gradient(circle at 15% 12%,rgba(158,0,56,.34),transparent 45%),
+      radial-gradient(circle at 85% 8%,rgba(212,175,55,.18),transparent 42%),
+      radial-gradient(circle at 50% 100%,rgba(158,0,56,.22),transparent 55%),
+      repeating-linear-gradient(135deg,rgba(255,255,255,.022) 0 2px,transparent 2px 9px);
+  }
+  .heraldic-line{
+    background-image:linear-gradient(90deg,transparent,#D4AF37 20%,#D4AF37 80%,transparent);
+    height:1px
+  }
+  .crest-frame{
+    background:linear-gradient(#111111,#111111) padding-box,
+      linear-gradient(135deg,#D4AF37,#9E0038 55%,#D4AF37) border-box;
+    border:1px solid transparent
+  }
+  .crest-frame-light{
+    background:linear-gradient(#ffffff,#ffffff) padding-box,
+      linear-gradient(135deg,#D4AF37,#9E0038 55%,#D4AF37) border-box;
+    border:1px solid transparent
+  }
+  .promo-ribbon{
+    position:relative;display:inline-flex;align-items:center;gap:.55rem;
+    padding:.6rem 1.5rem;background:linear-gradient(135deg,#E5A024 0%,#D4AF37 45%,#B8860B 100%);
+    color:#111;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.72rem;
+    transform:rotate(-2deg);box-shadow:0 16px 30px -14px rgba(184,134,11,.9)
+  }
+  .promo-ribbon::before,.promo-ribbon::after{
+    content:'';position:absolute;top:0;width:0;height:0;
+    border-top:1.28rem solid transparent;border-bottom:1.28rem solid transparent
+  }
+  .promo-ribbon::before{left:-.95rem;border-right:.95rem solid #B8860B}
+  .promo-ribbon::after{right:-.95rem;border-left:.95rem solid #B8860B}
+  .badge-british{
+    display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .9rem;
+    border:1px solid rgba(212,175,55,.55);border-radius:999px;
+    font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#D4AF37;white-space:nowrap
+  }
+  .badge-british-light{color:#9E0038;border-color:rgba(158,0,56,.3)}
+  .card-heraldic{position:relative;transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s ease,border-color .35s ease}
+  .card-heraldic:hover{transform:translateY(-8px)}
+  .card-heraldic::after{
+    content:'';position:absolute;left:1.5rem;right:1.5rem;bottom:0;height:3px;
+    background:linear-gradient(90deg,transparent,#D4AF37,transparent);transform:scaleX(0);
+    transition:transform .4s ease
+  }
+  .card-heraldic:hover::after{transform:scaleX(1)}
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1)}
+  .reveal.is-visible{opacity:1;transform:none}
+  .divider-crest{display:flex;align-items:center;gap:1rem}
+  .divider-crest span{height:1px;flex:1;background:linear-gradient(90deg,transparent,rgba(158,0,56,.45),transparent)}
+  input::placeholder{color:#9aa0a6}
+  select option{color:#111}
+  .form-ok{display:none}
+  .form-ok.show{display:block}
+  .field-focus:focus{border-color:#9E0038;box-shadow:0 0 0 4px rgba(158,0,56,.12);outline:none}
+  .field-error{border-color:#9E0038 !important;box-shadow:0 0 0 4px rgba(158,0,56,.14)}
+  .to-top{opacity:0;pointer-events:none;transition:opacity .3s ease,transform .3s ease;transform:translateY(12px)}
+  .to-top.show{opacity:1;pointer-events:auto;transform:none}
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+  }
+</style>
+</head>
+<body class="overflow-x-hidden bg-white font-sans text-ink antialiased">
+
+<div class="bg-burgundy text-white">
+  <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-2 text-center text-[11px] font-medium uppercase tracking-[0.18em] sm:flex-row sm:px-6 sm:text-xs">
+    <p class="flex items-center gap-2"><i class="fa-solid fa-ticket text-gold"></i> Скидка 10% по промокоду с флаера</p>
+    <a href="tel:+998951959195" class="hidden items-center gap-2 transition hover:text-gold sm:flex"><i class="fa-solid fa-phone"></i> +998 95 195-9-195</a>
+  </div>
+</div>
+
+<header id="header" class="sticky top-0 z-50 border-b border-white/10 bg-ink/95 backdrop-blur transition-all duration-300">
+  <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:py-4">
+    <a href="#top" class="flex items-center gap-3">
+      <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-gold to-goldLight text-ink shadow-gold">
+        <i class="fa-solid fa-graduation-cap text-lg"></i>
+      </span>
+      <span class="leading-tight">
+        <span class="font-display block text-sm font-bold tracking-[0.14em] text-white sm:text-base">OXFORD</span>
+        <span class="block text-[10px] font-medium uppercase tracking-[0.32em] text-gold sm:text-[11px]">Learning Centre</span>
+      </span>
+    </a>
+
+    <nav class="hidden items-center gap-8 lg:flex">
+      <a href="#why" class="text-sm font-medium text-white/80 transition hover:text-gold">Почему мы</a>
+      <a href="#courses" class="text-sm font-medium text-white/80 transition hover:text-gold">Курсы</a>
+      <a href="#location" class="text-sm font-medium text-white/80 transition hover:text-gold">Мы здесь</a>
+      <a href="tel:+998951959195" class="flex items-center gap-2 text-sm font-semibold text-white transition hover:text-gold">
+        <i class="fa-solid fa-phone text-gold"></i><span class="tracking-wide">+998 95 195-9-195</span>
+      </a>
+      <a href="#lead-form" class="rounded-sm bg-burgundy px-5 py-2.5 text-sm font-semibold uppercase tracking-wider text-white shadow-card transition hover:bg-burgundyDark hover:shadow-premium">Записаться</a>
+    </nav>
+
+    <div class="flex items-center gap-2 lg:hidden">
+      <a href="tel:+998951959195" aria-label="Позвонить" class="flex h-10 w-10 items-center justify-center rounded-full border border-gold/40 text-gold"><i class="fa-solid fa-phone"></i></a>
+      <button id="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="mobile-menu" class="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white">
+        <i class="fa-solid fa-bars text-lg"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden border-t border-white/10 bg-ink lg:hidden">
+    <nav class="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-4 sm:px-6">
+      <a href="#why" class="rounded-sm px-3 py-3 text-sm font-medium text-white/85 transition hover:bg-white/5 hover:text-gold">Почему мы</a>
+      <a href="#courses" class="rounded-sm px-3 py-3 text-sm font-medium text-white/85 transition hover:bg-white/5 hover:text-gold">Наши курсы</a>
+      <a href="#location" class="rounded-sm px-3 py-3 text-sm font-medium text-white/85 transition hover:bg-white/5 hover:text-gold">Мы здесь</a>
+      <a href="tel:+998951959195" class="rounded-sm px-3 py-3 text-sm font-semibold text-gold"><i class="fa-solid fa-phone mr-2"></i>+998 95 195-9-195</a>
+      <a href="#lead-form" class="mt-2 rounded-sm bg-burgundy px-3 py-3 text-center text-sm font-semibold uppercase tracking-wider text-white">Записаться</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="texture-dark relative overflow-hidden">
+    <div class="pointer-events-none absolute inset-0 flex items-center justify-center opacity-[0.06]" aria-hidden="true">
+      <i class="fa-solid fa-crown text-[26rem] leading-none text-gold"></i>
+    </div>
+
+    <div class="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-24 sm:pt-20 lg:pb-28 lg:pt-24">
+      <div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+        <div>
+          <div class="reveal"><span class="promo-ribbon"><i class="fa-solid fa-percent"></i> Скидка 10% по промокоду с флаера</span></div>
+
+          <h1 class="reveal font-display mt-7 text-4xl font-extrabold uppercase leading-[1.05] tracking-tight text-white transition-all duration-700 sm:text-5xl lg:text-6xl" style="transition-delay:.08s">
+            Учебный центр <span class="bg-gradient-to-r from-gold via-goldLight to-gold bg-clip-text text-transparent">Oxford</span>
+          </h1>
+
+          <div class="reveal divider-crest mt-6 w-40" style="transition-delay:.12s"><span></span><i class="fa-solid fa-circle text-[6px] text-gold"></i><span></span></div>
+
+          <p class="reveal mt-6 max-w-xl text-lg leading-relaxed text-white/75 sm:text-xl" style="transition-delay:.16s">
+            Английская атмосфера и реальные результаты обучения
+          </p>
+
+          <ul class="reveal mt-8 grid gap-3 sm:grid-cols-2" style="transition-delay:.2s">
+            <li class="flex items-center gap-3 text-sm text-white/80 sm:text-base"><i class="fa-solid fa-circle-check text-gold"></i> Новый метод обучения</li>
+            <li class="flex items-center gap-3 text-sm text-white/80 sm:text-base"><i class="fa-solid fa-circle-check text-gold"></i> Английская атмосфера</li>
+            <li class="flex items-center gap-3 text-sm text-white/80 sm:text-base"><i class="fa-solid fa-circle-check text-gold"></i> Преподаватели высшего уровня</li>
+            <li class="flex items-center gap-3 text-sm text-white/80 sm:text-base"><i class="fa-solid fa-circle-check text-gold"></i> Реальные результаты</li>
+          </ul>
+
+          <div class="reveal mt-9 flex flex-wrap items-center gap-4" style="transition-delay:.24s">
+            <a href="#courses" class="group inline-flex items-center gap-3 rounded-sm bg-gold px-6 py-3.5 text-sm font-bold uppercase tracking-wider text-ink shadow-gold transition hover:bg-goldLight">
+              Выбрать курс <i class="fa-solid fa-arrow-right text-xs transition group-hover:translate-x-1"></i>
+            </a>
+            <a href="tel:+998951959195" class="inline-flex items-center gap-3 rounded-sm border border-white/25 px-6 py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition hover:border-gold hover:text-gold">
+              <i class="fa-solid fa-phone"></i> 95 195-9-195
+            </a>
+          </div>
+        </div>
+
+        <div id="lead-form" class="reveal scroll-mt-28" style="transition-delay:.28s">
+          <div class="crest-frame-light rounded-sm bg-white p-6 shadow-premium sm:p-8">
+            <p class="badge-british badge-british-light"><i class="fa-solid fa-gift text-gold"></i> Бонус с флаера</p>
+            <h2 class="font-display mt-4 text-2xl font-bold text-ink sm:text-[28px]">Получить скидку 10%</h2>
+            <p class="mt-2 text-sm leading-relaxed text-ink/60">Оставьте контакты — перезвоним, подберем уровень и стартовую группу.</p>
+
+            <form id="lead" class="mt-6 grid gap-3" novalidate>
+              <div>
+                <label for="name" class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ink/70">Имя</label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Ваше имя"
+                  class="field-focus w-full rounded-sm border border-ink/15 bg-cream px-4 py-3 text-sm text-ink transition" required>
+              </div>
+              <div>
+                <label for="phone" class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ink/70">Телефон</label>
+                <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+998 __ ___ __ __"
+                  class="field-focus w-full rounded-sm border border-ink/15 bg-cream px-4 py-3 text-sm text-ink transition" required>
+              </div>
+              <div>
+                <label for="course" class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ink/70">Курс</label>
+                <div class="relative">
+                  <select id="course" name="course"
+                    class="field-focus w-full appearance-none rounded-sm border border-ink/15 bg-cream px-4 py-3 pr-11 text-sm text-ink transition">
+                    <option value="Английский язык">Английский язык</option>
+                    <option value="IELTS 7.0+">IELTS 7.0+</option>
+                    <option value="Rus tili">Rus tili</option>
+                    <option value="CEFR">CEFR</option>
+                  </select>
+                  <i class="fa-solid fa-chevron-down pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-xs text-burgundy"></i>
+                </div>
+              </div>
+              <button type="submit" class="group mt-1 inline-flex w-full items-center justify-center gap-3 rounded-sm bg-burgundy px-6 py-4 text-sm font-bold uppercase tracking-wider text-white shadow-card transition hover:bg-burgundyDark hover:shadow-premium">
+                Получить скидку 10% <i class="fa-solid fa-arrow-right text-xs transition group-hover:translate-x-1"></i>
+              </button>
+              <p class="text-center text-[11px] leading-relaxed text-ink/45">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+            </form>
+
+            <div id="lead-ok" class="form-ok mt-6 rounded-sm border border-gold/50 bg-gold/10 p-5 text-center">
+              <i class="fa-solid fa-circle-check text-2xl text-burgundy"></i>
+              <p class="font-display mt-3 text-lg font-bold text-ink">Заявка принята</p>
+              <p class="mt-1 text-sm text-ink/65">Скидка 10% по промокоду с флаера закреплена за вами. Мы перезвоним в ближайшее время.</p>
+            </div>
+
+            <div class="mt-6 flex items-center justify-between gap-3 border-t border-ink/10 pt-4 text-xs text-ink/50">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-burgundy"></i> Буюк Ипак йўли, 3</span>
+              <a href="tel:+998951959195" class="shrink-0 font-semibold text-ink transition hover:text-burgundy">+998 95 195-9-195</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative border-t border-white/10 bg-black/30">
+      <div class="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-white/10 px-4 sm:px-6 lg:grid-cols-4">
+        <div class="px-4 py-6 text-center">
+          <p class="font-display text-2xl font-extrabold text-gold sm:text-3xl">4</p>
+          <p class="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/55">направления</p>
+        </div>
+        <div class="px-4 py-6 text-center">
+          <p class="font-display text-2xl font-extrabold text-gold sm:text-3xl">10%</p>
+          <p class="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/55">по промокоду</p>
+        </div>
+        <div class="px-4 py-6 text-center">
+          <p class="font-display text-2xl font-extrabold text-gold sm:text-3xl">IELTS 7.0+</p>
+          <p class="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/55">цель экзамена</p>
+        </div>
+        <div class="px-4 py-6 text-center">
+          <p class="font-display text-2xl font-extrabold text-gold sm:text-3xl">CEFR</p>
+          <p class="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/55">сертификация</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="scroll-mt-24 bg-white py-20 sm:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6">
+      <div class="reveal mx-auto max-w-2xl text-center">
+        <p class="text-xs font-semibold uppercase tracking-[0.28em] text-burgundy">Oxford Learning Centre</p>
+        <h2 class="font-display mt-4 text-3xl font-extrabold uppercase text-ink sm:text-4xl lg:text-5xl">Почему мы?</h2>
+        <div class="divider-crest mx-auto mt-6 w-48"><span></span><i class="fa-solid fa-crown text-xs text-burgundy"></i><span></span></div>
+        <p class="mt-6 text-base leading-relaxed text-ink/60">Классический британский подход к обучению, адаптированный под современный ритм жизни.</p>
+      </div>
+
+      <div class="mt-14 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        <article class="reveal card-heraldic group rounded-sm border border-ink/10 bg-cream p-7 shadow-card hover:border-gold/60 hover:shadow-premium">
+          <div class="flex h-16 w-16 items-center justify-center rounded-full bg-ink text-gold shadow-gold transition group-hover:bg-burgundy">
+            <i class="fa-solid fa-list-check text-2xl"></i>
+          </div>
+          <h3 class="font-display mt-6 text-lg font-bold leading-snug text-ink">Новый метод обучения</h3>
+          <p class="mt-3 text-sm leading-relaxed text-ink/60">Структурированная методика: теория, практика и разбор ошибок в едином ритме занятий.</p>
+          <span class="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-burgundy">Методика <i class="fa-solid fa-arrow-right text-[10px]"></i></span>
+        </article>
+
+        <article class="reveal card-heraldic group rounded-sm border border-ink/10 bg-cream p-7 shadow-card hover:border-gold/60 hover:shadow-premium" style="transition-delay:.08s">
+          <div class="flex h-16 w-16 items-center justify-center rounded-full bg-ink text-gold shadow-gold transition group-hover:bg-burgundy">
+            <i class="fa-solid fa-user-graduate text-2xl"></i>
+          </div>
+          <h3 class="font-display mt-6 text-lg font-bold leading-snug text-ink">Английская атмосфера</h3>
+          <p class="mt-3 text-sm leading-relaxed text-ink/60">Британская академическая подача, живая речь и погружение в язык с первого занятия.</p>
+          <span class="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-burgundy">Атмосфера <i class="fa-solid fa-arrow-right text-[10px]"></i></span>
+        </article>
+
+        <article class="reveal card-heraldic group rounded-sm border border-ink/10 bg-cream p-7 shadow-card hover:border-gold/60 hover:shadow-premium" style="transition-delay:.16s">
+          <div class="flex h-16 w-16 items-center justify-center rounded-full bg-ink text-gold shadow-gold transition group-hover:bg-burgundy">
+            <i class="fa-solid fa-chalkboard-user text-2xl"></i>
+          </div>
+          <h3 class="font-display mt-6 text-lg font-bold leading-snug text-ink">Преподаватели высшего уровня</h3>
+          <p class="mt-3 text-sm leading-relaxed text-ink/60">Опытные педагоги и носители языка, которые умеют объяснять сложное просто.</p>
+          <span class="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-burgundy">Команда <i class="fa-solid fa-arrow-right text-[10px]"></i></span>
+        </article>
+
+        <article class="reveal card-heraldic group rounded-sm border border-ink/10 bg-cream p-7 shadow-card hover:border-gold/60 hover:shadow-premium" style="transition-delay:.24s">
+          <div class="flex h-16 w-16 items-center justify-center rounded-full bg-ink text-gold shadow-gold transition group-hover:bg-burgundy">
+            <i class="fa-solid fa-chart-line text-2xl"></i>
+          </div>
+          <h3 class="font-display mt-6 text-lg font-bold leading-snug text-ink">Реальные результаты</h3>
+          <p class="mt-3 text-sm leading-relaxed text-ink/60">Прогресс, который видно: свободная речь, экзамены и подтвержденные достижения.</p>
+          <span class="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-burgundy">Результат <i class="fa-solid fa-arrow-right text-[10px]"></i></span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses" class="scroll-mt-24 bg-cream py-20 sm:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6">
+      <div class="reveal mx-auto max-w-2xl text-center">
+        <p class="text-xs font-semibold uppercase tracking-[0.28em] text-burgundy">Программы</p>
+        <h2 class="font-display mt-4 text-3xl font-extrabold uppercase text-ink sm:text-4xl lg:text-5xl">Наши курсы</h2>
+        <div class="divider-crest mx-auto mt-6 w-48"><span></span><i class="fa-solid fa-book-open text-xs text-burgundy"></i><span></span></div>
+      </div>
+
+      <div class="mt-14 grid gap-6 sm:grid-cols-2">
+        <article data-course="Английский язык" class="reveal card-heraldic group flex flex-col rounded-sm bg-white p-7 shadow-card hover:shadow-premium sm:p-8">
+          <div class="flex flex-wrap items-start justify-between gap-3">
+            <div class="flex h-14 w-14 items-center justify-center rounded-sm bg-burgundy text-gold shadow-card">
+              <i class="fa-solid fa-language text-2xl"></i>
+            </div>
+            <span class="badge-british badge-british-light"><i class="fa-solid fa-globe text-gold"></i> General English</span>
+          </div>
+          <h3 class="font-display mt-6 text-2xl font-bold text-ink">Английский язык</h3>
+          <p class="mt-3 text-sm leading-relaxed text-ink/60">General English для всех уровней — от старта до свободного общения.</p>
+          <ul class="mt-5 grid gap-2.5 text-sm text-ink/70">
+            <li class="flex items-start gap-2.5"><i class="fa-solid fa-check mt-0.5 text-burgundy"></i> Группировка по уровню</li>
+            <li class="flex items-start gap-2.5"><i class="fa-solid fa-check mt-0.5 text-burgundy"></i> Разговорная практика с первого урока</li>
+          </ul>
+          <a href="#lead-form" data-enroll="Английский язык" class="enroll group/btn mt-7 inline-flex w-full items-center justify-center gap-3 rounded-sm border border-burgundy px-5 py-3.5 text-center text-sm font-bold uppercase tracking-wider text-burgundy transition hover:bg-burgundy hover:text-white">
+            Записаться на курс <i class="fa-solid fa-arrow-right text-xs transition group-hover/btn:translate-x-1"></i>
+          </a>
+        </article>
+
+        <article data-course="IELTS 7.0+" class="reveal card-heraldic group flex flex-col rounded-sm bg-white p-7 shadow-card hover:shadow-premium sm:p-8" style="transition-delay:.08s">
+          <div class="flex flex-wrap items-start justify-between gap-3">
+            <div class="flex h-14 w-14 items-center justify-center rounded-sm bg-burgundy text-gold shadow-card">
+              <i class="fa-solid fa-award text-2xl"></i>
+            </div>
+            <span class="badge-british badge-british-light"><i class="fa-solid fa-bullseye text-gold"></i> 7.0+</span>
+          </div>
+          <h3 class="font-display mt-6 text-2xl font-bold text-ink">IELTS 7.0+</h3>
+          <p class="mt-3 text-sm leading-relaxed text-ink/60">Интенсивная подготовка к экзамену: все секции, стратегии и тайминг.</p>
+          <ul class="mt-5 grid gap-2.5 text-sm text-ink/70">
+            <li class="flex items-start gap-2.5"><i class="fa-solid fa-check mt-0.5 text-burgundy"></i> Writing и Speaking по критериям экзамена</li>
+            <li class="flex items-start gap-2.5"><i class="fa-solid fa-check mt-0.5 text-burgundy"></i> Регулярные пробники и разбор</li>
+          </ul>
+          <a href="#lead-form" data-enroll="IELTS 7.0+" class="enroll group/btn mt-7 inline-flex w-full items-center justify-center gap-3 rounded-sm border border-burgundy px-5 py-3.5 text-center text-sm font-bold uppercase tracking-wider text-burgundy transition hover:bg-burgundy hover:text-white">
+            Записаться на курс <i class="fa-solid fa-arrow-right text-xs transition group-hover/btn:translate-x-1"></i>
+          </a>
+        </article>
+
+        <article data-course="Rus tili" class="reveal card-heraldic group flex flex-col rounded-sm bg-white p-7 shadow-card hover:shadow-premium sm:p-8" style="transition-delay:.16s">
+          <div class="flex flex-wrap items-start justify-between gap-3">
+            <div class="flex h-14 w-14 items-center justify-center rounded-sm bg-burgundy text-gold shadow-card">
+              <i class="fa-solid fa-comment-dots text-2xl"></i>
+            </div>
+            <span class="badge-british badge-british-light"><i class="fa-solid fa-comments text-gold"></i> Русский язык</span>
+          </div>
+          <h3 class="font-display mt-6 text-2xl font-bold text-ink">Rus tili</h3>
+          <p class="mt-3 text-sm leading-relaxed text-ink/60">Русский язык для работы, учебы и уверенного общения в среде.</p>
+          <ul class="mt-5 grid gap-2.5 text-sm text-ink/70">
+            <li class="flex items-start gap-2.5"><i class="fa-solid fa-check mt-0.5 text-burgundy"></i> Грамматика и разговорная речь</li>
+            <li class="flex items-start gap-2.5"><i class="fa-solid fa-check mt-0.5 text-burgundy"></i> Подбор группы под цель</li>
+          </ul>
+          <a href="#lead-form" data-enroll="Rus tili" class="enroll group/btn mt-7 inline-flex w-full items-center justify-center gap-3 rounded-sm border border-burgundy px-5 py-3.5 text-center text-sm font-bold uppercase tracking-wider text-burgundy transition hover:bg-burgundy hover:text-white">
+            Записаться на курс <i class="fa-solid fa-arrow-right text-xs transition group-hover/btn:translate-x-1"></i>
+          </a>
+        </article>
+
+        <article data-course="CEFR" class="reveal card-heraldic group flex flex-col rounded-sm bg-white p-7 shadow-card hover:shadow-premium sm:p-8" style="transition-delay:.24s">
+          <div class="flex flex-wrap items-start justify-between gap-3">
+            <div class="flex h-14 w-14 items-center justify-center rounded-sm bg-burgundy text-gold shadow-card">
+              <i class="fa-solid fa-certificate text-2xl"></i>
+            </div>
+            <span class="badge-british badge-british-light"><i class="fa-solid fa-stamp text-gold"></i> Стандарт</span>
+          </div>
+          <h3 class="font-display mt-6 text-2xl font-bold text-ink">CEFR</h3>
+          <p class="mt-3 text-sm leading-relaxed text-ink/60">Международная сертификация уровня языка — подтверждение ваших навыков.</p>
+          <ul class="mt-5 grid gap-2.5 text-sm text-ink/70">
+            <li class="flex items-start gap-2.5"><i class="fa-solid fa-check mt-0.5 text-burgundy"></i> Подготовка A1 → C1</li>
+            <li class="flex items-start gap-2.5"><i class="fa-solid fa-check mt-0.5 text-burgundy"></i> Подтвержденный уровень</li>
+          </ul>
+          <a href="#lead-form" data-enroll="CEFR" class="enroll group/btn mt-7 inline-flex w-full items-center justify-center gap-3 rounded-sm border border-burgundy px-5 py-3.5 text-center text-sm font-bold uppercase tracking-wider text-burgundy transition hover:bg-burgundy hover:text-white">
+            Записаться на курс <i class="fa-solid fa-arrow-right text-xs transition group-hover/btn:translate-x-1"></i>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="location" class="scroll-mt-24 bg-white py-20 sm:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6">
+      <div class="reveal mx-auto max-w-2xl text-center">
+        <p class="text-xs font-semibold uppercase tracking-[0.28em] text-burgundy">Как нас найти</p>
+        <h2 class="font-display mt-4 text-3xl font-extrabold uppercase text-ink sm:text-4xl lg:text-5xl">Мы здесь!</h2>
+        <div class="divider-crest mx-auto mt-6 w-48"><span></span><i class="fa-solid fa-location-dot text-xs text-burgundy"></i><span></span></div>
+      </div>
+
+      <div class="mt-14 grid gap-6 lg:grid-cols-5">
+        <div class="reveal lg:col-span-2">
+          <div class="crest-frame flex h-full flex-col rounded-sm bg-ink p-7 text-white shadow-premium sm:p-8">
+            <p class="badge-british self-start"><i class="fa-solid fa-map-location-dot text-gold"></i> Ташкент</p>
+            <h3 class="font-display mt-5 text-2xl font-bold leading-snug">Буюк Ипак йўли, 3</h3>
+            <p class="mt-2 text-sm text-white/55">г. Ташкент, Буюк Ипак йўли, 3</p>
+
+            <div class="heraldic-line my-6"></div>
+
+            <ul class="grid gap-3 text-sm text-white/75">
+              <li class="flex items-start gap-3"><i class="fa-solid fa-train-subway mt-0.5 text-gold"></i> Метро «Буюк Ипак Йули»</li>
+              <li class="flex items-start gap-3"><i class="fa-solid fa-bus mt-0.5 text-gold"></i> Рядом остановка «Максим Горький»</li>
+              <li class="flex items-start gap-3"><i class="fa-solid fa-building-columns mt-0.5 text-gold"></i> Trastbank</li>
+              <li class="flex items-start gap-3"><i class="fa-solid fa-briefcase-medical mt-0.5 text-gold"></i> Oxy.med</li>
+            </ul>
+
+            <div class="mt-7 grid gap-3">
+              <a href="tel:+998951959195" class="flex items-center justify-center gap-3 rounded-sm bg-gold px-5 py-3.5 text-sm font-bold uppercase tracking-wider text-ink transition hover:bg-goldLight">
+                <i class="fa-solid fa-phone"></i> +998 95 195-9-195
+              </a>
+              <a href="https://www.openstreetmap.org/?mlat=41.3294&amp;mlon=69.2404#map=17/41.3294/69.2404" target="_blank" rel="noopener" class="flex items-center justify-center gap-3 rounded-sm border border-white/25 px-5 py-3.5 text-sm font-semibold uppercase tracking-wider text-white transition hover:border-gold hover:text-gold">
+                <i class="fa-solid fa-diamond-turn-right"></i> Построить маршрут
+              </a>
+            </div>
+
+            <div class="mt-7 border-t border-white/10 pt-6">
+              <p class="text-[11px] uppercase tracking-[0.2em] text-white/45">Мы в соцсетях</p>
+              <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
+                <a href="https://www.instagram.com/oxford_learning_centre/" target="_blank" rel="noopener" class="flex items-center gap-3 rounded-sm border border-white/15 px-4 py-3 transition hover:border-gold">
+                  <i class="fa-brands fa-instagram text-lg text-gold"></i>
+                  <span class="min-w-0">
+                    <span class="block text-[10px] uppercase tracking-[0.18em] text-white/45">Instagram</span>
+                    <span class="block truncate text-xs font-semibold text-white">@oxford_learning_centre</span>
+                  </span>
+                </a>
+                <a href="https://www.tiktok.com/@oxford_learning_centre" target="_blank" rel="noopener" class="flex items-center gap-3 rounded-sm border border-white/15 px-4 py-3 transition hover:border-gold">
+                  <i class="fa-brands fa-tiktok text-lg text-gold"></i>
+                  <span class="min-w-0">
+                    <span class="block text-[10px] uppercase tracking-[0.18em] text-white/45">TikTok</span>
+                    <span class="block truncate text-xs font-semibold text-white">@oxford_learning_centre</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal lg:col-span-3" style="transition-delay:.1s">
+          <div class="crest-frame-light h-full min-h-[380px] overflow-hidden rounded-sm bg-cream shadow-premium">
+            <iframe
+              title="Oxford Learning Centre на карте — Буюк Ипак йўли, 3, Ташкент"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=69.2280%2C41.3215%2C69.2530%2C41.3370&amp;layer=mapnik&amp;marker=41.3294%2C69.2404"
+              class="h-full min-h-[380px] w-full border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="texture-dark py-16 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6">
+      <div class="reveal crest-frame-light rounded-sm bg-white/5 p-8 text-center shadow-premium sm:p-12">
+        <span class="promo-ribbon"><i class="fa-solid fa-percent"></i> Скидка 10%</span>
+        <h2 class="font-display mt-6 text-2xl font-extrabold uppercase text-white sm:text-4xl">Промокод с флаера уже ждет вас</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-white/65 sm:text-base">Оставьте заявку на обучение со скидкой 10% — перезвоним, подберем курс и удобное время.</p>
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+          <a href="#lead-form" class="inline-flex items-center gap-3 rounded-sm bg-gold px-7 py-4 text-sm font-bold uppercase tracking-wider text-ink shadow-gold transition hover:bg-goldLight">
+            Получить скидку 10% <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
+          <a href="tel:+998951959195" class="inline-flex items-center gap-3 rounded-sm border border-white/25 px-7 py-4 text-sm font-semibold uppercase tracking-wider text-white transition hover:border-gold hover:text-gold">
+            <i class="fa-solid fa-phone"></i> 95 195-9-195
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-white/10 bg-ink pb-28 pt-16 lg:pb-16">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6">
+    <div class="grid gap-10 md:grid-cols-3">
+      <div>
+        <a href="#top" class="flex items-center gap-3">
+          <span class="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-gold to-goldLight text-ink">
+            <i class="fa-solid fa-graduation-cap text-xl"></i>
+          </span>
+          <span class="leading-tight">
+            <span class="font-display block text-base font-bold tracking-[0.14em] text-white">OXFORD</span>
+            <span class="block text-[10px] font-medium uppercase tracking-[0.32em] text-gold">Learning Centre</span>
+          </span>
+        </a>
+        <p class="mt-5 max-w-sm text-sm leading-relaxed text-white/50">Английская атмосфера и реальные результаты обучения. Учебный центр в Ташкенте.</p>
+      </div>
+
+      <div>
+        <p class="font-display text-sm font-bold uppercase tracking-[0.2em] text-gold">Контакты</p>
+        <ul class="mt-5 grid gap-3 text-sm text-white/60">
+          <li><a href="tel:+998951959195" class="flex items-center gap-3 transition hover:text-gold"><i class="fa-solid fa-phone w-4 text-gold"></i> +998 95 195-9-195</a></li>
+          <li class="flex items-center gap-3"><i class="fa-solid fa-location-dot w-4 text-gold"></i> г. Ташкент, Буюк Ипак йўли, 3</li>
+          <li class="flex items-center gap-3"><i class="fa-solid fa-train-subway w-4 text-gold"></i> Метро «Буюк Ипак Йули»</li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="font-display text-sm font-bold uppercase tracking-[0.2em] text-gold">Соцсети</p>
+        <div class="mt-5 flex gap-3">
+          <a href="https://www.instagram.com/oxford_learning_centre/" target="_blank" rel="noopener" aria-label="Instagram" class="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white transition hover:border-gold hover:text-gold"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@oxford_learning_centre" target="_blank" rel="noopener" aria-label="TikTok" class="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white transition hover:border-gold hover:text-gold"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="tel:+998951959195" aria-label="Позвонить" class="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white transition hover:border-gold hover:text-gold"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <p class="mt-5 text-sm text-white/45">@oxford_learning_centre</p>
+      </div>
+    </div>
+
+    <div class="heraldic-line my-9"></div>
+
+    <div class="flex flex-col items-center justify-between gap-3 text-center text-xs text-white/40 sm:flex-row sm:text-left">
+      <p>&copy; <span id="year">2026</span> Oxford Learning Centre. Все права защищены.</p>
+      <p>Учебный центр &middot; Ташкент &middot; Буюк Ипак йўли, 3</p>
+    </div>
+  </div>
+</footer>
+
+<button id="to-top" type="button" aria-label="Наверх" class="to-top fixed bottom-20 right-4 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-burgundy text-white shadow-premium transition hover:bg-burgundyDark sm:bottom-5 sm:right-5">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<div id="mobile-bar" class="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-ink/95 px-3 py-2 backdrop-blur lg:hidden">
+  <div class="flex items-center gap-2">
+    <a href="tel:+998951959195" class="flex flex-1 items-center justify-center gap-2 rounded-sm border border-white/20 py-3 text-xs font-semibold uppercase tracking-wider text-white"><i class="fa-solid fa-phone text-gold"></i> Позвонить</a>
+    <a href="#lead-form" class="flex flex-1 items-center justify-center gap-2 rounded-sm bg-gold py-3 text-xs font-bold uppercase tracking-wider text-ink"><i class="fa-solid fa-percent"></i> Скидка 10%</a>
+  </div>
+</div>
+
+<script>
+(function(){
+  var header=document.getElementById('header');
+  var toTop=document.getElementById('to-top');
+  var onScroll=function(){
+    var y=window.scrollY||0;
+    header.classList.toggle('nav-scrolled',y>24);
+    toTop.classList.toggle('show',y>700);
+  };
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+
+  toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+
+  var burger=document.getElementById('burger');
+  var menu=document.getElementById('mobile-menu');
+  var closeMenu=function(){
+    menu.classList.add('hidden');
+    burger.setAttribute('aria-expanded','false');
+    burger.innerHTML='<i class="fa-solid fa-bars text-lg"></i>';
+  };
+  burger.addEventListener('click',function(){
+    if(menu.classList.contains('hidden')){
+      menu.classList.remove('hidden');
+      burger.setAttribute('aria-expanded','true');
+      burger.innerHTML='<i class="fa-solid fa-xmark text-lg"></i>';
+    }else{
+      closeMenu();
+    }
+  });
+  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeMenu);});
+
+  var reveal=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}
+      });
+    },{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+    reveal.forEach(function(el){io.observe(el);});
+  }else{
+    reveal.forEach(function(el){el.classList.add('is-visible');});
+  }
+
+  var phone=document.getElementById('phone');
+  var nameField=document.getElementById('name');
+  var formatPhone=function(){
+    var d=phone.value.replace(/\D/g,'');
+    if(d.indexOf('998')===0){d=d.slice(3);}
+    d=d.slice(0,9);
+    var out='+998';
+    if(d.length>0){out+=' '+d.slice(0,2);}
+    if(d.length>2){out+=' '+d.slice(2,5);}
+    if(d.length>5){out+=' '+d.slice(5,7);}
+    if(d.length>7){out+=' '+d.slice(7,9);}
+    phone.value=out;
+  };
+  phone.addEventListener('input',formatPhone);
+  phone.addEventListener('focus',function(){if(!phone.value){phone.value='+998 ';}});
+  phone.addEventListener('blur',function(){
+    if(phone.value.replace(/\D/g,'')==='998'){phone.value='';}
+    phone.classList.remove('field-error');
+  });
+  nameField.addEventListener('input',function(){nameField.classList.remove('field-error');});
+
+  var courseSelect=document.getElementById('course');
+  document.querySelectorAll('.enroll').forEach(function(link){
+    link.addEventListener('click',function(){
+      var name=link.getAttribute('data-enroll');
+      if(courseSelect&&name){courseSelect.value=name;}
+    });
+  });
+
+  var form=document.getElementById('lead');
+  var ok=document.getElementById('lead-ok');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(nameField.value.trim().length<2){
+      nameField.classList.add('field-error');
+      nameField.focus();
+      return;
+    }
+    if(phone.value.replace(/\D/g,'').replace('998','').length<9){
+      phone.classList.add('field-error');
+      phone.focus();
+      return;
+    }
+    form.style.display='none';
+    ok.classList.add('show');
+  });
+
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
